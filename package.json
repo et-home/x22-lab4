@@ -1,0 +1,29 @@
+{
+    "name": "sample-webpack-handlebars",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "scripts": {
+        "clean": "rm dist/bundle.js",
+        "build-dev": "webpack --mode development",
+        "build-prod": "webpack --mode production",
+        "watch": "webpack --mode development --watch"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.17.9",
+        "@babel/plugin-transform-runtime": "^7.17.0",
+        "@babel/preset-env": "^7.16.11",
+        "babel-loader": "^8.2.5",
+        "core-js": "^3.22.2",
+        "css-loader": "^6.7.1",
+        "eslint": "^8.13.0",
+        "handlebars": "^4.7.7",
+        "handlebars-loader": "^0.0.4",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.72.0",
+        "webpack-cli": "^4.9.2"
+    }
+}
